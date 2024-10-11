@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Triangle</title>
+  
+  <!-- Import map to specify module paths -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js",
+        "three/examples/jsm/controls/FirstPersonControls.js": "https://cdn.jsdelivr.net/npm/three@0.152.2/examples/jsm/controls/FirstPersonControls.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+  <script type="module" src="./app.js"></script> <!-- Notice the type="module" here -->
+</body>
+</html>
